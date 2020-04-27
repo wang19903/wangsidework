@@ -1,0 +1,5 @@
+[0423/155903.546:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::LDR_DATA_TABLE_ENTRY<crashpad::process_types::internal::Traits64>]: 僅完成部分的 ReadProcessMemory 或 WriteProcessMemory 要求。 (0x12B)
+[0423/155903.547:ERROR:process_info.cc(329)] VirtualQueryEx: 存取被拒。 (0x5)
+[0423/155903.547:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0423/155903.547:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0423/155903.547:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 嘗試存取現有的處理程序。 (0xc000010a)
